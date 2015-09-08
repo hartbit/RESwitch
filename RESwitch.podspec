@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source_files = 'RESwitch'
   s.public_header_files = 'RESwitch/*.h'
 
-  s.resources = "RESwitch/RESwitch.bundle"
+  s.resource_bundles = { 'RESwitch' => 'RESwitch/Resources/*' }
 end
